@@ -1,0 +1,288 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Agilent &mdash; lab_demo 0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Anolis" href="../dna-extractions/anolis.html" />
+    <link rel="prev" title="Welcome to Pupper’s documentation!" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> lab_demo
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Bioanalyser</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Agilent</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#some-additions-to-the-protocol">Some additions to the protocol</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#maintenance">Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#chip-priming-station">Chip Priming station</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#chip-tricks">Chip tricks!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reagents">Reagents</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">DNA extractions</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dna-extractions/anolis.html">Anolis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dna-extractions/pocillopora.html">Pocillopora</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dna-extractions/heliconius.html">Heliconius</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dna-extractions/finch.html">Finch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dna-extractions/stickleback.html">Stickleback</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Lab material</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lab-material/micropipettor.html">Micropipettor</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tissue sampling for RNA-seq</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tissue-sampling/fish.html">Fish</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">lab_demo</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Agilent</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/bioanalyser/agilent.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="agilent">
+<h1>Agilent<a class="headerlink" href="#agilent" title="Permalink to this headline">¶</a></h1>
+<p>How to use a BioAnalyzer Agilent DNA Kit</p>
+<p>Find the centrifuge arm length here.
+Calculation to convert RPM to RCF here.</p>
+<p>First read the Agilent DNA 1000 Kit Quick Start Guide. This protocol uses the kit for DNA of size between 25 and 1000bp with a concentration range between 0.5 to 50 ng/μl. You can use a NanoDrop or PicoGreen to quantify the DNA.</p>
+<div class="section" id="some-additions-to-the-protocol">
+<h2>Some additions to the protocol<a class="headerlink" href="#some-additions-to-the-protocol" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>1 chip can do 12 samples. In 1 box (e.g. Agilent DNA 1000 kit), you can do 25 chips of 12 samples each (300 samples total!)</p></li>
+<li><p>Software: <a class="reference external" href="https://www.agilent.com/en/product/automated-electrophoresis/bioanalyzer-systems/bioanalyzer-software/2100-expert-software-228259">https://www.agilent.com/en/product/automated-electrophoresis/bioanalyzer-systems/bioanalyzer-software/2100-expert-software-228259</a></p>
+<ul>
+<li><p>You can install the software on many computers (Windows only)</p></li>
+</ul>
+</li>
+<li><p>Do NOT use “filter tips”. These WILL once in a while AFFECT the results. At least, be aware that it might create spikes in the analysis.</p></li>
+</ul>
+</div>
+<div class="section" id="maintenance">
+<h2>Maintenance<a class="headerlink" href="#maintenance" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>You can clean the equipment using water, and/or ethanol</p></li>
+<li><p>Please wipe the white ring that enters in contact with the chip</p></li>
+<li><p>A Kit is good for 4-6 months. After that, the quality is not necessarily guaranteed</p></li>
+<li><p>Clean the interior of the BioAnalyzer with the “cleaning chip” (transparent one). Just put distilled water inside the chip and put the chip inside the BioAnalyzer. Then close the lid for 30 sec to 1 min. Toss the water in the sink after you’re done. Clean the BioAnalyzer before and after using it.</p></li>
+<li><p>Once you’re done with your run, do NOT leave the chip for more than 30 minutes in the machine. Beyond this time, there is a risk that the gel dries and crystallizes on the electrode. Usually, you should remove the chip in less than 5 minutes of the run and rinse the electrodes with the cleaning chip (water should dissolve the gel). If you want to clean the electrodes of the  BioAnalyzer, you can use KimWipes (with a little bit of water) between the electrodes. You can also use a very soft toothbrush with water between the electrodes.</p></li>
+</ul>
+</div>
+<div class="section" id="chip-priming-station">
+<h2>Chip Priming station<a class="headerlink" href="#chip-priming-station" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Test the syringe</p>
+<ul>
+<li><p>Mount the Chip Priming Station and raise the syringe to 1.0 and press the plunger all the way down until you hear a “click” (the plunger will be locked).</p></li>
+<li><p>Wait 5 seconds and release the plunger. The plunger should come back (at least) to the mark “3.0”</p></li>
+<li><p>The syringe should be changed about every 25 run (so it’s good for 1 kit, don’t reuse it)</p></li>
+</ul>
+</li>
+<li><p>Be certain that the position of he syringe clip is properly positioned and that the base plate is at the proper position.</p></li>
+</ul>
+</div>
+<div class="section" id="chip-tricks">
+<h2>Chip tricks!<a class="headerlink" href="#chip-tricks" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Cleaning chip: the cleaning chip can be reuseé</p></li>
+<li><p>DO NOT REUSE a loading chip.</p></li>
+<li><p>Try to avoid as much as possible the amount of air that can be put inside the chip</p></li>
+<li><p>On step 7 of the protocol under “Loading the Gel-Dye Mix (“Wait for 5s, then slowly pull back the plunger to the 1 ml position”). Please, do it VERY SLOWLY. You do not want to disturb the gel.</p></li>
+<li><p>Under the title Loading the Marker, “Pipette 5 μl of marker in all sample and ladder wells (not the Gs). DO NOT LEAVE ANY WELLS EMPTY.” You CAN’T leave any well empty (otherwize, the bioanalyzer doesn’t detect the chip). If you forgot to fill a well, you can add water by increment of 1μl. If you don’t know which well is missing liquid for the machine to detect that a well contains a sample, add 1μl in all wells. Iterate until you reach a level where the machine can read.</p></li>
+</ul>
+</div>
+<div class="section" id="reagents">
+<h2>Reagents<a class="headerlink" href="#reagents" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>The reagent with the blue dot (DNA dye concentrate) is light sensitive!! Avoid as much as you can exposure to light. Exposing the DNA dye concentrate will affect performance in the long run.</p></li>
+<li><p>Some reagents need to beat room temperature.This is important as the viscosity of the reagents will affect the performance of the protocol (if not enough warm, it’s going to be too viscous)</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../dna-extractions/anolis.html" class="btn btn-neutral float-right" title="Anolis" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../index.html" class="btn btn-neutral float-left" title="Welcome to Pupper’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Wing.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
