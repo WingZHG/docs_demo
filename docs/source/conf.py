@@ -24,9 +24,6 @@ author = 'Wing'
 # The full version, including alpha/beta/rc tags
 release = 'v0.1'
 
-
-import sphinx_material
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -37,8 +34,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.autodoc",
     "sphinx.ext.mathjax",
-    "sphinx.ext.viewcode",
-    "sphinx_material"
+    "sphinx.ext.viewcode"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
