@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'lab_demo'
+project = 'labdocs_demo'
 copyright = '2021, Wing'
 author = 'Wing'
 
 # The full version, including alpha/beta/rc tags
-release = '0'
+release = 'v 0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -32,6 +32,10 @@ release = '0'
 # ones.
 extensions = [
     'sphinx_rtd_theme',
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.mathjax",
+    "sphinx.ext.viewcode",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -48,10 +52,29 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_material'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_theme_options = {
+    'base_url': 'https://blab-docs.readthedocs.io/en/latest/',
+    'repo_url': 'https://github.com/WingZHG/docs_demo',
+    'repo_name': 'Lab Protocol Docs',
+    'google_analytics_account': 'UA-XXXXX',
+    'html_minify': True,
+    'css_minify': True,
+    'nav_title': 'Lab Protocols docs Demo',
+    'logo_icon': '&#xe865',
+    'globaltoc_depth': 2,
+    
+    # Set the color and the accent color
+    'color_primary': 'blue',
+    'color_accent': 'light-blue',
+}
+
+html_sidebars = {
+    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
+}

@@ -70,16 +70,12 @@ Solutions
 
    .. csv-table::
       :header: "Reagent", "MW/FW", "M", "For 250 mL", "Comments"
-      :widths: 5, 5, 10, 15, 5
+      :widths: 5, 5, 5, 5, 15
 
       "SDS", , , , "(Comes in 20% Solution)"
       "Tris", "121.1", "1", "30.275 g", "Adjust pH with HCl"
       "NaCl", "58.44", "5", "73.05 g"
-      "EDTA*", "372.24", "0.5", "46.53 g", "*Will not dissolve if pH is below 8. 
-   
-      Adjust pH with Sodium hydroxide pellets 
-   
-      as you mix on stirring plate"
+      "EDTA*", "372.24", "0.5", "46.53 g", "*Will not dissolve if pH is below 8. Adjust pH with Sodium hydroxide pellets as you mix on stirring plate"
 
 #. Proteinase K (20 mg/ml, comes in solution)
 
