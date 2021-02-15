@@ -22,7 +22,7 @@ copyright = '2021, Wing'
 author = 'Wing'
 
 # The full version, including alpha/beta/rc tags
-release = 'v 0.1'
+release = 'v0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -52,6 +52,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
+html_theme_path = ['.']
 html_theme = 'sphinx_material'
 
 # Add any paths that contain custom static files (such as style sheets) here,
