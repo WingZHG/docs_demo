@@ -52,7 +52,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme_path = ['sphinx_material/sphinx_material']
+html_theme_path = ['sphinx_material']
 html_theme = 'sphinx_material'
 
 # Add any paths that contain custom static files (such as style sheets) here,
