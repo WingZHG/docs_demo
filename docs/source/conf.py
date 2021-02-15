@@ -25,6 +25,8 @@ author = 'Wing'
 release = 'v0.1'
 
 
+import sphinx_material
+
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -36,6 +38,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.mathjax",
     "sphinx.ext.viewcode",
+    "sphinx_material"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
